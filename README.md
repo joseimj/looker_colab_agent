@@ -1,4 +1,4 @@
-# Generic data agent in Looker → Gemini Enterprise 🔭🚀
+# Generic data agent in Looker → Gemini Enterprise
 
 **A conversational data agent, created as native content inside Looker (Google Cloud core) and publishable to Gemini Enterprise — deployed entirely from Google Colab using only the Looker API.**
 
@@ -14,7 +14,7 @@ The agent connects to one or more Explores (up to 5) from your LookML model, app
 
 > This repository is a **generic example**. The three included Explores (`ecommerce_demo::orders`, `::customers`, `::products`) are **fictional**: replace them with your own in the `EXPLORES` list.
 
-It's the evolution of the [joseimj/bafar](https://github.com/joseimj/bafar) pattern (which deployed an HR agent over SAP): a single script, configuration up top, idempotent execution and a *preflight* check before deploying — but now with **no domain-specific logic** and with the added **Gemini Enterprise publishing** step.
+It's the evolution of previous patterns: a single script, configuration up top, idempotent execution and a *preflight* check before deploying — but now with **no domain-specific logic** and with the added **Gemini Enterprise publishing** step.
 
 ---
 
