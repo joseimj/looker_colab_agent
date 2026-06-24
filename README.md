@@ -208,4 +208,3 @@ All technical decisions in this project are grounded in Google Cloud's official 
 
 Created and maintained by **[joseimj](https://github.com/joseimj)**.
 
-Built on the deployment pattern of [joseimj/bafar](https://github.com/joseimj/bafar).
